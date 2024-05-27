@@ -89,6 +89,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
+    margin-left: 15rem;
     background-color: navy;
     color: #fff;
     border: none;
