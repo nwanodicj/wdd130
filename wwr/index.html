@@ -3,85 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafting Home Page</title>
+    <title>Tech Rafting | Home</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
-<body class="body">
+<body>
     <header>
-        <img src="images/Logo.png">
+        <img src="images/Logo.png" alt="Tech Rafting logo">
         <nav class="nav-items">
-            <a href="https://nwanodicj.github.io/wdd130/wwr/index.html">Home</a>
-            <a href="https://nwanodicj.github.io/wdd130//wwr/about.html">About Us</a>
-            <a href="https://nwanodicj.github.io/wdd130/wwr/trips.html">Trips</a>
-            <a href="https://nwanodicj.github.io/wdd130//wwr/contact.html">Contact Us</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
-        <div class="img-src">
-            <img src="images/homemain.jpg">
-        </div>
-        <p>
-        <a href="https://nwanodicj.github.io/wdd130/wwr/trips.html">
-            <button>Check Out Our Trips</button>
-        </a>
-        <div>
-            <fieldset class="set">
-                <div>
-                    <img src="images/rafting18.jpg">
-                </div>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/homemain.jpg" alt="Adventurers rafting on a rapid river">
+            <h1 class="hero-text">Experience the Thrill of White Water Rafting!</h1>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <a href="trips.html" class="cta-button">Check Out Our Trips</a>
+        </section>
+
+        <!-- About / Grid Section -->
+        <section class="about-grid">
+            <div>
+                <img src="images/rafting18.jpg" alt="Team building rafting adventure">
                 <p>
-                <div class="div">    
-                   Nearly every company in the world requires their employees to work as a team. That said, 
-                   going on a wild river adventure with your teammates is perfect for building deeper and more 
-                   fulfilling relationships with them. In regards to family bonding, it gives you a chance to 
-                   learn more about their strengths and weaknesses, which helps each member of the family to 
-                   bond.
-                </div>
-                <p>
-                <div class="div">
-                   There are actually studies on river rafting, and on activities in the outdoors, which show 
-                   that not only are these things fun, there are thousands of health benefits as well. When 
-                   people are getting tired of their jobs or just tired in general, one way they can reduce 
-                   their stress is by going outdoors. Now, studies show that being outdoors in fresh air is far
-                   more beneficial to your mental health and stress levels than any indoor activities.
-                </div>   
+                    Nearly every company in the world requires teamwork. A wild river adventure is perfect for
+                    building deeper and more fulfilling relationships — both with teammates and family.
                 </p>
-                <div>
-                    <img src="images/rafting30.jpg">
-                </div>
-            </fieldset>   
-        </div>
-        <p class="p">
-        <form> 
-            <div>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
             </div>
             <div>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email">
+                <img src="images/rafting30.jpg" alt="Beautiful outdoor river scene">
+                <p>
+                    Studies show that outdoor activities like rafting reduce stress and boost mental health. 
+                    Fresh air and adventure are powerful ways to refresh your mind and body.
+                </p>
             </div>
-            
-            <div>
-                <button>Sign Up</button>
-            </div>
-        </form>
+        </section>
+
+        <!-- Newsletter Form -->
+        <section class="newsletter">
+            <h2>Sign Up for Our Newsletter</h2>
+            <form>
+                <fieldset>
+                    <legend>Stay Updated!</legend>
+                    <div>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <button type="submit">Sign Up</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
     </main>
+
     <footer>
-        <p>
-            &copy;
-            &copy; 2024,
-            &copy; Tech Rafting LTD,
-            &copy; Justice Chiwike Nwanodi,
-        </p>
+        <p>&copy; 2024 Tech Rafting LTD | Justice Chiwike Nwanodi</p>
         <nav class="sociallinks">
             <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="facebook">
+                <img src="images/facebook.svg" alt="Facebook">
             </a>
             <a href="https://twitter.com">
                 <img src="images/twitter.svg" alt="Twitter">
             </a>
-            <a href="https://Instagram.com">
+            <a href="https://instagram.com">
                 <img src="images/instagram.svg" alt="Instagram">
             </a>
         </nav>
