@@ -39,7 +39,7 @@
       </iframe>
     </div>
 
-      <form class="contact-form">
+    <form class="contact-form">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>
 
@@ -48,21 +48,34 @@
 
         <fieldset>
           <legend>Message Purpose</legend>
-          <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label><br>
-          <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label><br>
-          <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+
+          <label for="purpose1">
+            <input type="radio" id="purpose1" name="purpose" value="General Inquiry" required>
+            General Inquiry
+          </label><br>
+
+          <label for="purpose2">
+            <input type="radio" id="purpose2" name="purpose" value="Reservation Question">
+            Reservation Question
+          </label><br>
+
+          <label for="purpose3">
+            <input type="radio" id="purpose3" name="purpose" value="Website Suggestion">
+            Website Suggestion
+          </label>
         </fieldset>
 
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 
-        <label class="newsletter">
-          <input type="checkbox" name="subscribe">
+        <label for="subscribe" class="newsletter">
+          <input type="checkbox" id="subscribe" name="subscribe">
           Please subscribe me to the monthly newsletter
         </label>
 
         <button type="submit" class="submit-btn">Get in Touch!</button>
-      </form>
+    </form>
+
     </section>
 
     <!-- Employee Profiles -->
@@ -70,15 +83,15 @@
       <h2>We Are Here to Serve You</h2>
       <div class="employee-profiles">
         <figure>
-          <img src="images/OIP-1.jpg" alt="Employee 1">
+          <img src="images/oip-1.jpg" alt="Employee 1">
           <figcaption>John Doe<br>Lead Guide</figcaption>
         </figure>
         <figure>
-          <img src="images/OIP-1.jpg" alt="Employee 2">
+          <img src="images/oip-1.jpg" alt="Employee 2">
           <figcaption>Jane Smith<br>Customer Support</figcaption>
         </figure>
         <figure>
-          <img src="images/OIP-1.jpg" alt="Employee 3">
+          <img src="images/oip-1.jpg" alt="Employee 3">
           <figcaption>Michael Brown<br>Safety Coordinator</figcaption>
         </figure>
       </div>
